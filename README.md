@@ -13,6 +13,7 @@ The page has:
 - **Controls:** sliders for NaCl concentration (mol/kg), pressure (MPa) and temperature (°C), plus example conditions (seawater at the start of leaching, a half-saturated brine, a saturated deep cavern, a shallow flooded salt mine, and others).
 - **Readout:** the stable phase, transition temperature and margin (T − T<sub>t</sub>) under each model, and the gap between the two models.
 - **P–T path over time:** a 3,200-day series at 5.7 mol/kg NaCl (from `PT_Tempo.csv`; pressure converted from bar to MPa). Drag the day slider or press Play to move along the path.
+- **Editable series:** under "Edit the series", change any cell (day, pressure, temperature, NaCl), add or delete rows, import a CSV file, paste rows copied from a spreadsheet, download the current series as CSV, or reset to the original. Pressure can be shown and entered in bar or MPa. Imports take columns in the order day, pressure, temperature, NaCl (NaCl optional), or match them by a header row. Edits are saved in your browser's local storage and stay only on that browser.
 - **3D stability surfaces:** both models, with the measured transitions at 0.1 MPa and the selected point.
 - **2D section** at the selected pressure, showing where the models agree on gypsum, agree on anhydrite, or disagree.
 - **Method notes and sources.**
